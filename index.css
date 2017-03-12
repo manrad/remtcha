@@ -1,0 +1,353 @@
+/* 
+ * 
+ *   index.css : Style sheet for Remtcha
+ *   Copyright (C) 2017  Manivannan Radhakannan
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>
+ * and open the template in the editor.
+ */
+
+body{
+    width: 100%;
+    min-width:320px;
+    height:auto;
+    min-height:480px;
+    font-family:  "Noto Sans", "Noto Sans CJK JP", "Noto Sans Devanagari", "Noto Sans Tamil","Noto Naskh Arabic UI", "Noto Sans UI", "Noto Serif Armenian", "Noto Serif Georgian", "Noto Serif", "Noto Sans Malayalam","Noto Sans Gujarati","Noto Sans Bengali","Noto Sans Kannada","Noto Sans Telugu",sans-serif;
+    font-size:80%;
+    background-color: white;
+    padding:0px;
+    margin:0px;
+    overflow: auto;
+}
+
+#sym_font{
+    margin:auto;
+    background-color: black;
+    opacity:0.8;
+    text-align:center;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+
+#langinfo{
+    display:block;
+    height:20px;
+    width:100%;
+    padding-bottom: 5px;
+    overflow:auto;
+}
+#remHeader{
+    width:100%;
+    height:auto;
+    background-color: black;
+    color:white;
+    opacity:0.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:auto;
+    text-align: center;
+}
+
+#textDisplay{
+    margin:auto;
+    text-align: center;
+    width:100%;
+    height:40px;
+}
+
+
+
+#langdisplay{
+    float:left;
+}
+
+.logotxt{
+    width:auto;
+    height:auto;
+    float:left;
+}
+
+
+.no-copy {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+#menustructure{
+    width:100%;
+    height:auto;
+    background-color: black;
+    margin:auto;
+    text-align: center;
+    color:white;
+    opacity:0.6;    
+}
+
+
+#menu1{
+    width:100%;
+    height:auto;
+    display:none;
+}
+
+#menu2{
+    width:100%;
+    height:auto;
+    background-color: whitesmoke;
+    display:none;
+}
+
+#menu3{
+    width:100%;
+    height:80%;
+    background-color:lightyellow;
+    display:none;
+}
+
+#boxcategory{
+    width:100%;
+    height: auto;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-top: 2px;
+}
+
+#stylecategory{
+    width:100%;
+    height: auto;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    margin-top: 2px;
+}
+
+#variantcategory{
+    width:100%;
+    height:30px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;    
+}
+
+.ml1{
+    margin-right: 20px;
+    color:white;
+}
+
+#colorshow{
+    width:auto;
+    height:100px;
+    overflow: auto;
+    margin-top: 2px;
+}
+
+#opaqshow{
+    width:100%;
+    height:35px;
+    display: block;
+    overflow: auto;
+}
+
+.colorbit{
+    width:35px;
+    height: 35px;
+}
+
+#submenu_level_1_2{
+    width:100%;
+    height: 30px;
+    background-color: violet;
+}
+
+#submenu_level_2{
+    width:100%;
+    height: 30px;
+    background-color: red;
+}
+
+#submenu_level_2_1{
+    width:100%;
+    height: 30px;
+    background-color: orange;
+}
+
+#submenu_level_2_2{
+    width:100%;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+#bodystruct{
+    margin-top: 2px;
+    width:100%;
+    min-width:320px;
+    height:80%;
+    min-height: 480px;
+}
+
+
+#footerdiv{
+    width:100%;
+    height:auto;
+    margin-top:5px;
+    background-color :black;
+    color:white;
+    opacity:0.6;
+}
+
+#blockpad_bg{display:none;}
+#variator{display:none;}
+#variator_overlay{display:none;}
+
+#captchadiv{
+    width: 300px;
+    height:auto;
+    margin:auto;
+    text-align: center;
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+}
+
+#buttondiv{
+    width:100%;
+    max-width:300px;
+    height:45px;
+    opacity:0.9;
+    margin:auto;
+}
+
+
+#cfmdiv{
+    width:100%;
+    max-width:300px;
+    height:45px;
+    opacity:0.9;
+    margin:auto;
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+    border: 2px solid grey;
+}
+
+.captchabutton{
+    width:140px;
+    height: 45px;
+    margin:auto;
+    border:none;
+    background-color: grey;
+    color:white;
+}
+
+#blockrow{
+    width:300px;
+    max-width:300px;
+    height:60px;
+    max-height: 60px;
+}
+
+#blockrowoverlay{
+    width:300px;
+    max-width:300px;
+    height:60px;
+    max-height: 60px;
+    margin-top: -60px;
+}
+
+.blockele{
+    width:40px;
+    max-width:40px;
+    height:40px;
+    max-height:40px;
+    float:left;
+    font-size:30px;
+    color:black;
+    margin-right: 5px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#block_pad{
+    width:300px;
+    height:300px;
+    background-color: black;
+    overflow:auto;
+}
+
+.padele{
+width:80px;
+height:80px;
+margin-left:-7px;
+font-size:75px;
+color:#fa7856;
+opacity:0.6;
+float:left;
+}
+
+
+#introdiv{
+    background-image: url('img/remtcha/create1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#firstdiv{
+    background-image: url('img/remtcha/d1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: solid lightgray 2px;
+}
+
+
+#seconddiv{
+    background-image: url('img/remtcha/lingualkeyboard.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: solid lightgray 2px;
+}
+
+#thirddiv{
+    background-image: url('img/remtcha/randhash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: solid lightgray 2px; 
+}
+
+
+
+#privacydiv{
+    display:none;
+    opacity:0.9;
+}
+
+#notificationdiv{
+    background-image: url('img/remtcha/gplv3.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: content;
+    border-bottom: solid lightgray 2px;   
+}
